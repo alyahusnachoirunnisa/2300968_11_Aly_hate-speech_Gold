@@ -1,5 +1,4 @@
 from fastapi import APIRouter
-from fastapi import Query
 from services.database import ambil_data, ambil_sentiment
 from enum import Enum
 

@@ -13,15 +13,6 @@ model = AutoModelForSequenceClassification.from_pretrained(pretrained)
 tokenizer = AutoTokenizer.from_pretrained(pretrained)
 classifier = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
 
-# async def input_database(df):
-#     conn = sqlite3.connect('tweets.db')
-#     cursor = conn.cursor()
-#     cursor.execute(''' CREATE TABLE IF NOT EXISTS tweets
-#                             (Tweet TEXT, Tweets_clean TEXT, Sentiment TEXT)''')
-#     df.to_sql ('tweets', conn, if_exists='append', index=False)
-
-#     conn.close()
-
 async def get_sentiment(text):
     result = await cleansing(text)
     result = result['data']
