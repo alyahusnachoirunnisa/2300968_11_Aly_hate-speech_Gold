@@ -1,4 +1,4 @@
-# Indonesian Abusive and Hate Speech Twitter Text Analysis and API
+# Indonesian Abusive and Hate Speech Twitter Text Analysis and API Service
 
 ## Project Overview
 In this project, We've developed an API tailored to cleanse text data (focusing on *Indonesian Abusive and Hate Speech Twitter Text*) and analyze sentiment text data. The API incorporates a text classification model sourced from [huggingface (ayameRushia)](https://huggingface.co/ayameRushia/bert-base-indonesian-1.5G-sentiment-analysis-smsa). Additionally, We conducted a comprehensive analysis of Indonesian Abusive and Hate Speech Twitter Text, presenting the findings in a detailed report formatted as a PowerPoint presentation (pptx).
@@ -65,7 +65,58 @@ The data cleaning process encompasses both text and duplicate cleaning. Text cle
 These commands collectively contribute to the refinement and preparation of the dataset for subsequent analysis.
 
 ## Expalatory Data Analysis
-In pursuit of deeper insights into the dataset, we conducted exploratory data analysis and visualization. This process involved an in-depth examination of word distribution, identification of abusive tweets, categorization of hate speech tweets, and analysis of various types of hate speech within the dataset. Additionally, we utilized word clouds to visualize tweet data, providing a glimpse into the most frequently occurring words in each category of abusive and hate speech. The results of this analysis are presented in the attached document for reference.
+In pursuit of deeper insights into the dataset, we conducted exploratory data analysis and visualization. This process involved an in-depth examination of word distribution, identification of abusive tweets, categorization of hate speech tweets, and analysis of various types of hate speech within the dataset. Additionally, we utilized word clouds to visualize tweet data, providing a glimpse into the most frequently occurring words in each category of abusive and hate speech.
 
-### Tweet Word Distribution
-Upon analyzing the distribution of words in tweets, the findings reveal that the average word count per tweet is 16 words. Tweets range from a minimum of 1 word to a maximum of 52 words, showcasing the variability in the length of messages across the dataset.
+#### Tweet Word Distribution
+Upon analyzing the distribution of words in tweets, the findings reveal that the average word count per tweet is 16 words.Tweets range from a minimum of 1 word to a maximum of 52 words, showcasing the variability in the length of messages across the dataset.
+</p>
+<img src="https://github.com/alyahusnachoirunnisa/Twitter-analysis-report-and-API/blob/master/Visualization/distribution.png" alt="drawing" width="400"/>
+</p>
+
+#### **Abusive and Non-abusive Tweet Analysis**
+This analysis delves into tweets labeled as abusive, comparing the distribution of the number of words in tweets categorized as abusive versus non-abusive. The examination includes an assessment of the proportion and count of both abusive and non-abusive tweets within the dataset.
+</p>
+<img src="https://github.com/alyahusnachoirunnisa/Twitter-analysis-report-and-API/blob/master/Visualization/Abusive.png" alt="drawing"/>
+</p>
+
+#### **Hate Speech and Non-Hate Speech Tweet Analysis**
+This analysis delves into tweets labeled as hate speech, comparing the distribution of the number of words in tweets categorized as hate speech versus non-hate speech. The examination includes an assessment of the proportion and count of both hate speech and non-hate speech tweets within the dataset.
+</p>
+<img src="https://github.com/alyahusnachoirunnisa/Twitter-analysis-report-and-API/blob/master/Visualization/Hate%20Speech.png" alt="drawing"/>
+</p>
+
+#### **Hate Speech Tweet Category Poroportion**
+This analysis provides insights into the proportion of hate speech categorized by its nature. It examines hate speech directed at groups or individuals, explores hate speech related to specific topics, and gauges the intensity of hate speech.
+</p>
+<img src="https://github.com/alyahusnachoirunnisa/Twitter-analysis-report-and-API/blob/master/Visualization/Proportion.png" alt="drawing"/>
+</p>
+
+#### **Hate Speech Tweet Category Poroportion**
+Utilizing a heatmap visualization, this analysis illustrates the correlation among different categories of hate speech, offering a visual representation of their interrelationships.
+</p>
+<img src="https://github.com/alyahusnachoirunnisa/Twitter-analysis-report-and-API/blob/master/Visualization/Heatmap.png" alt="drawing" width="400"/>
+</p>
+
+#### **Visualization of Word Intensity in the Dataset**
+Enhancing data comprehension, this analysis employs a word cloud visualization to highlight words with the highest occurrence intensity within the tweet dataset, offering a visually striking representation of prominent terms.
+</p>
+<img src="https://github.com/alyahusnachoirunnisa/Twitter-analysis-report-and-API/blob/master/Visualization/Wordcloud%20hate%20speech.png" alt="drawing" width="400"/>
+</p>
+
+#### **Visualization of Word Intensity in Each Hate Speech Category**
+Employing a word cloud visualization, this analysis aims to uncover information on words with the highest frequency of occurrence within each hate speech category, providing an insightful representation of distinct linguistic patterns associated with different forms of hate speech.
+</p>
+<img src="https://github.com/alyahusnachoirunnisa/Twitter-analysis-report-and-API/blob/master/Visualization/Word%20cloud%20hate%20speech%20category.png" alt="drawing"/>
+</p>
+
+## Conclusion
+The findings derived from the conducted exploratory data analysis lead to the following conclusions:
+- The average word count per tweet falls within the range of 10 to 20 words.
+- Tweets categorized as hate speech constitute 42.4% of the dataset, while abusive tweets make up 36.3%.
+- Prominent words in hate speech tweets include: Jokowi, Indonesia, PKI, Cebong, Ahok, and Presiden.
+- The majority of hate speech is directed towards individuals, accounting for 64.1%.
+- The prevailing intensity of hate speech is predominantly low, with 60.6% falling into this category.
+- Religion emerges as the most discussed topic within the hate speech category.
+- Hate speech targeting groups often delves into discussions on religion and race, displaying a tendency towards moderate intensity.
+- Hate speech directed at individuals tends to be characterized by weak intensity.
+- Hate speech targeting groups exhibits a tendency towards moderate intensity.
