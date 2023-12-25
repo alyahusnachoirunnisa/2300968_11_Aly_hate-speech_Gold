@@ -95,7 +95,7 @@ When navigating from the landing home page to the Swagger documentation, the dis
    ```
 
 # Indonesian Abusive and Hate Speech Twitter Text Analysis
-The analysis was conducted through a meticulous process involving the cleaning of text data and exploratory data analysis. The primary objective was to unearth valuable insights from the data, leading to the creation of a comprehensive report based on the obtained analysis results. The entirety of this analytical endeavor took place within the Google Colab environment. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KHyayCvFggPJk-jM7hZPt54LRA7-vo7f?usp=drive_link)
+The analysis was conducted through a process involving the cleaning of text data and exploratory data analysis. The primary objective was to unearth valuable insights from the data, leading to the creation of a report based on the obtained analysis results. The entirety of this analytical endeavor took place within the Google Colab environment. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KHyayCvFggPJk-jM7hZPt54LRA7-vo7f?usp=drive_link)
 
 ## Dataset
 The dataset employed in this analysis is sourced from [Indonesian Abusive and Hate Speech Twitter](https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive-language-detection). Comprising 13,023 tweets, each tweet is associated with categorization labels that encompass various dimensions of hate speech and abusive language. The labels are defined as follows:
